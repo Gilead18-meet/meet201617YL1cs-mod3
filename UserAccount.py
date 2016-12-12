@@ -28,3 +28,5 @@ class UserAccount :
         #If, and only if, there's a match, then print the user's secret to the screen.
         if self.password==password_attempt:
             print(self.secret)
+        else:
+            print()
